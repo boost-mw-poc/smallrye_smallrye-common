@@ -116,7 +116,8 @@ public class MavenVersionTest {
         checkMavenCanonical("1.ga-0");
         checkMavenCanonical("1_0");
         checkMavenCanonical("1+_0");
-        checkMavenCanonical("ga");
+        // Differs between 1.x and 2.x
+        //checkMavenCanonical("ga");
         checkMavenCanonical("...");
     }
 
